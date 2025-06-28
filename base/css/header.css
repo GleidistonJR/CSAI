@@ -1,0 +1,44 @@
+header nav.navbar{
+    background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero))!important;
+}
+header a{
+    color: var(--texto-claro)!important;
+    
+}
+
+header .dropdown-menu a{
+    color: var(--texto-escuro)!important;
+    
+}
+header .dropdown-menu li a:hover{
+    background-color:var(--bg-primario-hero)!important;
+    color: var(--texto-claro)!important;
+    
+}
+
+@media (min-width: 1024px) {
+    header nav.navbar{
+        background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero))!important;
+    }
+    header a{
+        color: var(--texto-claro)!important;
+        
+    }
+
+    header .dropdown-menu a{
+        color: var(--texto-escuro)!important;
+        
+    }
+    header .dropdown-menu li a:hover{
+        background-color:var(--bg-primario-hero)!important;
+        color: var(--texto-claro)!important;
+        
+    }
+    /* CSS: mantém o menu visível ao passar o mouse */
+    .dropdown:hover > .dropdown-menu {
+    display: block;
+    }
+
+    /* Impede “piscar” ao sair do toggle */
+    .dropdown-toggle::after { pointer-events: none; }
+}
