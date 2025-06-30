@@ -1,0 +1,58 @@
+#planos_precos {
+    /*background-color: var(--bg-primario-hero);*/
+    background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero));
+}
+#planos_precos h2{
+    color: var(--texto-claro);
+}
+#planos_precos h2::after{
+    width: 250px;
+    background-color: #fff;
+}
+#planos_precos h4{
+    font-size: 1.6em;
+    color: var(--texto-escuro);
+}
+#planos_precos i{
+    font-size: 1.2em;
+    color: var(--verde-success);
+}
+#planos_precos ul {
+    list-style: none;
+    padding-left: 5px;
+}
+#planos_precos ul li{
+    list-style: none;
+    padding-left: 0px;
+    color: var(--texto-escuro);
+}
+#planos_precos ul li i{
+    font-size: 1.3em;
+    color: var(--verde-success);
+}
+
+#planos_precos .row div.back-fff{
+    background-color: #fff!important;
+    border-radius: 10px;
+}
+
+#planos_precos a{
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 50px;
+    padding: 7px 80px;
+    border-radius: 50px;
+    color: var(--texto-claro);
+    background-color: var(--verde-success);
+    border: 2px solid var(--verde-success);
+}
+#planos_precos a:hover{
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 50px;
+    padding: 7px 80px;
+    border-radius: 50px;
+    color: var(--texto-claro);
+    background-color: var(--verde-success);
+    border: 2px solid var(--verde-success);
+}

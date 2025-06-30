@@ -1,5 +1,8 @@
-header nav.navbar{
+header{
     background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero))!important;
+}
+header nav.navbar{
+    background-color: #00000000 !important;
 }
 header a{
     color: var(--texto-claro)!important;
@@ -15,10 +18,16 @@ header .dropdown-menu li a:hover{
     color: var(--texto-claro)!important;
     
 }
+header .img-fluid{
+   width: 120px;
+   height: auto; 
+   display: block;
+     margin: 0 auto; /* centraliza */
+}
 
 @media (min-width: 1024px) {
     header nav.navbar{
-        background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero))!important;
+        background-color: #00000000 !important;
     }
     header a{
         color: var(--texto-claro)!important;

@@ -1,13 +1,13 @@
 :root {
-  --cor-primaria: #05a041;
-  --cor-secundaria: #2ecc71;
+  --cor-primaria: #0589a0;
+  --cor-secundaria: #2eccc4;
   --texto-claro: #ffffff;
-  --texto-escuro: #333;
-  --bg-primario-hero: #16b646; 
-  --bg-secundario-hero: #0eaa3d; 
-  --bg-claro: #fff; 
-}
+  --texto-escuro: #444;
+  --bg-primario-hero: #139cb4; 
+  --bg-secundario-hero: #2eccc4; 
+  --bg-claro: #ecffff; 
+  --bg-escuro: #e5f1f1; 
 
-.cor-primary{
-
+  /*--verde-success: #08e608;*/
+  --verde-success: #0ad80a;
 }

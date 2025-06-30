@@ -1,0 +1,7 @@
+#diferenciais_competitivos h2{
+    color: var(--cor-primaria);
+}
+
+#diferenciais_competitivos h2::after{
+    width: 150px!important;
+}

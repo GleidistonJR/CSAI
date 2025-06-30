@@ -1,44 +1,52 @@
 #hero_section{
   background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero));
 }
-#hero_section .row{
-  height: 50vh;
-}
 #hero_section h1{
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: var(--texto-claro);
 }
 #hero_section p{
 color: var(--texto-claro);
 }
-#hero_section a.btn{
-    font-size: 1em;
-    font-weight: 500;
-    margin-top: 50px;
-    color: var(--cor-primaria);
-    background-color: var(--bg-claro) ;
+#hero_section a.btn1{
+  font-weight: 500;
+  margin: 10px ;
+  padding: 7px 0;
+  width: 280px;
+  border-radius: 50px;
+  color: var(--cor-primaria);
+  background-color: var(--bg-claro);
+  border: 2px solid #fff;
 }
+#hero_section a.btn1:hover{
+  color: var(--cor-primaria);
+  background-color: var(--bg-escuro);
+}
+#hero_section a.btn2{
+  font-weight: 500;
+  margin: 10px;
+  width: 280px;
+  border-radius: 50px;
+  color: var(--texto-claro);
+  background-color: #00000000 ;
+  border: 2px solid #fff;
+}
+#hero_section a.btn2:hover{
+  color: var(--cor-primaria);
+  background-color: var(--bg-claro);
+}
+
 @media (min-width: 1024px) {
   /* Aqui entram os estilos só para telas grandes (como notebooks e PCs) */
-    
-    #hero_section{
-      background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero));
-    }
-    #hero_section .row{
-      height: 60vh;
-    }
-    #hero_section h1{
-    color: var(--texto-claro);
-    }
-    #hero_section p{
-    color: var(--texto-claro);
-    }
-    #hero_section a.btn{
-        font-size: 1em;
-        font-weight: 500;
-        margin-top: 50px;
-        color: var(--cor-primaria);
-        background-color: var(--bg-claro) ;
-    }
+
+  #hero_section h1{
+  font-size: 2em;
+  }
+
+  #hero_section img{
+    width: 500px;
+    height: auto;
+  }
+
 
 }

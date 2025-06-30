@@ -1,0 +1,39 @@
+#como_funciona h2{
+    color: var(--texto-escuro);
+}
+#como_funciona h2::after{
+    width: 200px!important;
+}
+
+#como_funciona_icons p.passos{
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+#como_funciona .bi{
+    color: var(--cor-primaria);
+    font-size: 4em;
+}
+#como_funciona h4{
+    font-size: 1em;
+    color: var(--texto-escuro);
+}
+.linha::after{
+    content: "";
+    margin: 17px auto 0 auto;
+    width: 80px;
+    height: 3px;
+    background-color: var(--cor-primaria);
+    border-radius: 3px;
+    display: table;
+
+}
+#como_funciona #como_funciona_icons .back-fff{
+    border: 3px solid var(--cor-primaria);
+    margin: 5px 0px;
+    border-radius: 10px;
+    min-height: 280px;
+}
+#como_funciona .implantacao h3{
+    color: var(--cor-primaria);
+}

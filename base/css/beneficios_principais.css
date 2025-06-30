@@ -1,0 +1,9 @@
+#beneficos_principais h2{
+color: var(--texto-escuro);
+}
+#beneficos_principais h3{
+    color: var(--texto-escuro);
+}
+#beneficos_principais p{
+    color: var(--texto-escuro);
+}

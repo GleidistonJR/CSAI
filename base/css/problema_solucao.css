@@ -1,3 +1,10 @@
+#problema_solucao h2{
+  color: var(--texto-escuro);
+}
+#problema_solucao p{
+  color: var(--texto-escuro);
+}
+
 @media (min-width: 1024px) {
   /* Aqui entram os estilos só para telas grandes (como notebooks e PCs) */
   #problema_solucao > div > div > div.col-7.text-start.align-self-center > p{
