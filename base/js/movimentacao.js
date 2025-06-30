@@ -41,7 +41,7 @@ const observer = new IntersectionObserver(
 );
 
 // Observa imagens animadas
-document.querySelectorAll('.img-animado, .img-animado2').forEach(el => observer.observe(el));
+document.querySelectorAll('.animado, .animado2').forEach(el => observer.observe(el));
 
 // Observa parágrafos com contador
 document.querySelectorAll('.contador-animado').forEach(el => observer.observe(el));

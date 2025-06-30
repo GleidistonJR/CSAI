@@ -1,5 +1,8 @@
 #beneficos_principais h2{
-color: var(--texto-escuro);
+    color: var(--texto-escuro);
+}
+#beneficos_principais h2::after{
+    width: 200px;
 }
 #beneficos_principais h3{
     color: var(--texto-escuro);

@@ -4,30 +4,46 @@
 #problema_solucao h2{
   color: var(--texto-escuro);
 }
-#problema_solucao p{
+#problema_solucao .infografico p{
   color: var(--texto-escuro);
+  font-size: 1.2em;
 }
-#problema_solucao span.text-danger{
-  font-size: 2.5em;
-  font-weight: bold;
-}
-#problema_solucao div.img-animado{
+#problema_solucao div.animado{
   transform: translateX(-100px); /* começa fora da posição normal (à direita) */
   opacity: 0;
   transition: transform 0.6s ease-out, opacity 0.6s ease-out;
 
 }
-#problema_solucao div.img-animado2{
+#problema_solucao div.animado2{
   transform: translateX(100px); /* começa fora da posição normal (à direita) */
   opacity: 0;
   transition: transform 0.6s ease-out, opacity 0.6s ease-out;
 
 }
-#problema_solucao div.img-animado.visivel,
-#problema_solucao div.img-animado2.visivel {
+#problema_solucao div.animado.visivel,
+#problema_solucao div.animado2.visivel {
   transform: translateX(0); /* volta à posição original */
   opacity: 1;
 }
+
+#problema_solucao .infografico i{
+  font-size: 5em;
+  color: var(--vermelho);
+}
+
+#problema_solucao .barra {
+  width: 100%;
+  height: 10px;
+  background: #eee;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+#problema_solucao .preenchido {
+  height: 10px;
+  background: var(--vermelho);
+  border-radius: 5px;
+}
+
 
 @media (min-width: 1024px) {
   /* Aqui entram os estilos só para telas grandes (como notebooks e PCs) */
@@ -36,26 +52,4 @@
     font-weight: bold;
   }
 
-}
-
-
-
-.infografico i{
-  font-size: 5em;
-  color: var(--vermelho);
-}
-
-
-
-.barra {
-  width: 100%;
-  height: 10px;
-  background: #eee;
-  border-radius: 5px;
-  margin: 10px auto;
-}
-.preenchido {
-  height: 10px;
-  background: var(--vermelho);
-  border-radius: 5px;
 }
