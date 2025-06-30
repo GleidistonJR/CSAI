@@ -32,7 +32,7 @@
     border: 3px solid var(--cor-primaria);
     margin: 5px 0px;
     border-radius: 10px;
-    min-height: 280px;
+    min-height: 300px;
 }
 #como_funciona .implantacao h3{
     color: var(--cor-primaria);
