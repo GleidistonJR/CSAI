@@ -1,14 +1,49 @@
 :root {
-  --cor-primaria: #0589a0;
-  --cor-secundaria: #2eccc4;
+  --cor-primaria: #2eccc4;
+  --cor-secundaria: #00938D;
+  --cor-terciaria: #005B58;
   --texto-claro: #ffffff;
   --texto-escuro: #444;
-  --bg-primario-hero: #139cb4; 
-  --bg-secundario-hero: #2eccc4; 
+  --bg-primario-hero: #2eccc4; 
+  --bg-secundario-hero: #52D9D4; 
   --bg-claro: #ecffff; 
   --bg-escuro: #e5f1f1; 
 
   /*--verde-success: #08e608;*/
   --verde-success: #0ad80a;
-  --vermelho: #bd1a1a;
+  --vermelho: #2eccc4;
+  /*--vermelho: #bd1a1a;*/
+}
+
+.linha::after{
+    content: "";
+    margin: 17px auto 0 auto;
+    width: 80px;
+    height: 3px;
+    background-color: var(--cor-primaria);
+    border-radius: 3px;
+    display: table;
+
+}
+
+div.animado{
+  transform: translateX(-100px); /* começa fora da posição normal (à direita) */
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+div.animado2{
+  transform: translateX(100px); /* começa fora da posição normal (à direita) */
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+div.animado3{
+  transform: translateY(100px); /* começa fora da posição normal (à direita) */
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+div.animado.visivel,
+div.animado2.visivel,
+div.animado3.visivel {
+  transform: translateX(0); /* volta à posição original */
+  opacity: 1;
 }

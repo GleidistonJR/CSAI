@@ -8,23 +8,6 @@
   color: var(--texto-escuro);
   font-size: 1.2em;
 }
-#problema_solucao div.animado{
-  transform: translateX(-100px); /* começa fora da posição normal (à direita) */
-  opacity: 0;
-  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
-
-}
-#problema_solucao div.animado2{
-  transform: translateX(100px); /* começa fora da posição normal (à direita) */
-  opacity: 0;
-  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
-
-}
-#problema_solucao div.animado.visivel,
-#problema_solucao div.animado2.visivel {
-  transform: translateX(0); /* volta à posição original */
-  opacity: 1;
-}
 
 #problema_solucao .infografico i{
   font-size: 5em;

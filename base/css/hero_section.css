@@ -2,7 +2,8 @@
   background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero));
 }
 #hero_section h1{
-  font-size: 1.5em;
+  font-size: 2em;
+  font-weight: 700;
   color: var(--texto-claro);
 }
 #hero_section p{
@@ -40,7 +41,7 @@ color: var(--texto-claro);
   /* Aqui entram os estilos só para telas grandes (como notebooks e PCs) */
 
   #hero_section h1{
-  font-size: 2em;
+  /*font-size: 2em;*/
   }
 
   #hero_section img{
