@@ -1,5 +1,5 @@
 header{
-    background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero))!important;
+    background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria))!important;
 }
 header nav.navbar{
     background-color: #00000000 !important;
@@ -15,7 +15,7 @@ header .dropdown-menu a{
     
 }
 header .dropdown-menu li a:hover{
-    background-color:var(--bg-primario-hero)!important;
+    background-color:var(--cor-primaria)!important;
     color: var(--texto-claro)!important;
     
 }

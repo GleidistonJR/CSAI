@@ -1,5 +1,5 @@
 #hero_section{
-  background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero));
+  background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
 }
 #hero_section h1{
   font-size: 2em;
@@ -31,26 +31,9 @@ color: var(--texto-claro);
   color: var(--cor-primaria);
   background-color: var(--bg-claro);
 }
-#hero_section a.btn2{
-  font-weight: 500;
-  margin: 10px;
-  width: 280px;
-  border-radius: 50px;
-  color: var(--texto-claro);
-  background-color: #00000000 ;
-  border: 2px solid #fff;
-}
-#hero_section a.btn2:hover{
-  color: var(--cor-primaria);
-  background-color: var(--texto-claro);
-}
 
 @media (min-width: 1024px) {
   /* Aqui entram os estilos só para telas grandes (como notebooks e PCs) */
-
-  #hero_section h1{
-  /*font-size: 2em;*/
-  }
 
   #hero_section img{
     width: 900px;

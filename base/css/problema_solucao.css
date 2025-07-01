@@ -4,6 +4,7 @@
 #problema_solucao h2{
   color: var(--texto-escuro);
 }
+
 #problema_solucao .infografico p{
   color: var(--texto-escuro);
   font-size: 1.2em;
@@ -16,23 +17,49 @@
 
 #problema_solucao .barra {
   width: 100%;
-  height: 10px;
+  height: 25px;
   background: #eee;
   border-radius: 5px;
   margin: 10px auto;
 }
 #problema_solucao .preenchido {
-  height: 10px;
+  height: 25px;
   background: var(--cor-primaria);
   border-radius: 5px;
 }
 
+#problema_solucao .grafico-crecimento h3{ 
+  color: var(--texto-escuro);
+}
+
+#problema_solucao .grafico-crecimento .center-ul{
+  display: flex;
+  justify-content: center;
+}
+#problema_solucao .grafico-crecimento ul{
+  padding: 0;
+}
+#problema_solucao .grafico-crecimento ul li{
+  list-style: none;
+}
+#problema_solucao .grafico-crecimento ul li span{
+  font-size: 1.1em;
+}
+#problema_solucao .grafico-crecimento ul li span.text-bg-primary{
+  background-color: var(--cor-primaria)!important;
+}
+
+#problema_solucao .grafico-crecimento a{
+  background-color: var(--cor-primaria);
+  color: var(--texto-claro);
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 7px 50px;
+}
+
+#problema_solucao .grafico-crecimento ul{
+  padding: 0;
+}
 
 @media (min-width: 1024px) {
-  /* Aqui entram os estilos só para telas grandes (como notebooks e PCs) */
-  #problema_solucao span.text-danger{
-    font-size: 2.5em;
-    font-weight: bold;
-  }
-
 }

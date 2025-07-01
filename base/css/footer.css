@@ -1,0 +1,55 @@
+footer{
+    background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
+    padding-top: 30px;
+    color: var(--texto-claro) ;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--texto-claro);
+}
+footer ul {
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+footer ul li {
+    list-style: none;
+}
+footer .copy {
+    padding: 7px 0;
+}
+
+@media (min-width: 1024px) {
+    footer ul {
+        padding: 0;
+        gap: 10px;
+        display: flex;
+        justify-content: start;
+    }
+}
+
+
+/*
+        LGPD
+*/
+
+#lgpd-banner {
+    position: fixed;
+    bottom: 0;           /* gruda no rodapé */
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 -2px 8px rgba(0,0,0,.1);
+    z-index: 1050;       /* acima do resto do conteúdo */
+    
+}
+#lgpd-banner button.btn {
+    background-color: var(--cor-primaria)!important;
+    color: var(--texto-claro);
+}
+
+/* esconde se já aceitou */
+#lgpd-banner.oculto {
+    display: none!important;
+}

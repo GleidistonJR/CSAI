@@ -1,6 +1,6 @@
 #planos_precos {
-    /*background-color: var(--bg-primario-hero);*/
-    /*background: linear-gradient(to right, var(--bg-primario-hero), var(--bg-secundario-hero));*/
+    /*background-color: var(--cor-primaria);*/
+    /*background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));*/
 }
 #planos_precos h2{
     color: var(--texto-escuro);
@@ -17,7 +17,7 @@
     border-radius: 10px 10px 0 0 ;
 }
 #planos_precos .completo h4{
-    background-color: var(--cor-azul-escuro);
+    background-color: var(--cor-primaria);
 }
 #planos_precos ul {
     list-style: none;
@@ -64,7 +64,4 @@
     display: flex;
     align-self: center;
     margin-bottom: 15px;
-}
-#planos_precos a:hover{
-
 }

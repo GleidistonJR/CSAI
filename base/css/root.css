@@ -1,13 +1,12 @@
 :root {
-  --cor-azul: #248ec4;
-  --cor-azul-escuro: #207aa7;
-  --cor-primaria: #2eccc4;
-  --cor-secundaria: #00938D;
-  --cor-terciaria: #005B58;
+
+  --cor-primaria: #36aeeb;
+  --cor-secundaria: #248ec4;
+  --cor-terciaria: #227eac;
+
   --texto-claro: #ffffff;
   --texto-escuro: #444;
-  --bg-primario-hero: #2eccc4; 
-  --bg-secundario-hero: #52D9D4; 
+
   --bg-claro: #eee; 
   --bg-claro2: #dedede; 
   --bg-escuro: #ccc; 
@@ -23,10 +22,9 @@
   margin: 17px auto 0 auto;
   width: 80px;
   height: 3px;
-  background-color: var(--cor-primaria);
+  background-color: var(--texto-escuro);
   border-radius: 3px;
   display: table;
-
 }
 
 div.animado{
