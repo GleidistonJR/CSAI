@@ -1,4 +1,6 @@
 :root {
+  --cor-azul: #248ec4;
+  --cor-azul-escuro: #207aa7;
   --cor-primaria: #2eccc4;
   --cor-secundaria: #00938D;
   --cor-terciaria: #005B58;
@@ -6,23 +8,24 @@
   --texto-escuro: #444;
   --bg-primario-hero: #2eccc4; 
   --bg-secundario-hero: #52D9D4; 
-  --bg-claro: #ecffff; 
-  --bg-escuro: #e5f1f1; 
+  --bg-claro: #eee; 
+  --bg-claro2: #dedede; 
+  --bg-escuro: #ccc; 
 
   /*--verde-success: #08e608;*/
-  --verde-success: #0ad80a;
-  --vermelho: #2eccc4;
+  --verde-success: #13ca75;
+  --vermelho: red;
   /*--vermelho: #bd1a1a;*/
 }
 
 .linha::after{
-    content: "";
-    margin: 17px auto 0 auto;
-    width: 80px;
-    height: 3px;
-    background-color: var(--cor-primaria);
-    border-radius: 3px;
-    display: table;
+  content: "";
+  margin: 17px auto 0 auto;
+  width: 80px;
+  height: 3px;
+  background-color: var(--cor-primaria);
+  border-radius: 3px;
+  display: table;
 
 }
 

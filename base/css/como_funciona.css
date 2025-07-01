@@ -6,6 +6,7 @@
     color: var(--texto-escuro);
 }
 #como_funciona h2::after{
+    background-color: var(--texto-escuro);
     width: 200px!important;
 }
 

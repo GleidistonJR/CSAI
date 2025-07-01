@@ -6,6 +6,14 @@
   font-weight: 700;
   color: var(--texto-claro);
 }
+#hero_section h1 strong{
+  font-size: 1.3em;
+  font-weight: 700;
+}
+#hero_section h1 .destaque{
+  font-size: 1.2em;
+
+}
 #hero_section p{
 color: var(--texto-claro);
 }
@@ -16,12 +24,12 @@ color: var(--texto-claro);
   width: 280px;
   border-radius: 50px;
   color: var(--cor-primaria);
-  background-color: var(--bg-claro);
+  background-color: var(--texto-claro);
   border: 2px solid #fff;
 }
 #hero_section a.btn1:hover{
   color: var(--cor-primaria);
-  background-color: var(--bg-escuro);
+  background-color: var(--bg-claro);
 }
 #hero_section a.btn2{
   font-weight: 500;
@@ -34,7 +42,7 @@ color: var(--texto-claro);
 }
 #hero_section a.btn2:hover{
   color: var(--cor-primaria);
-  background-color: var(--bg-claro);
+  background-color: var(--texto-claro);
 }
 
 @media (min-width: 1024px) {

@@ -11,7 +11,7 @@
 
 #problema_solucao .infografico i{
   font-size: 5em;
-  color: var(--vermelho);
+  color: var(--cor-primaria);
 }
 
 #problema_solucao .barra {
@@ -23,7 +23,7 @@
 }
 #problema_solucao .preenchido {
   height: 10px;
-  background: var(--vermelho);
+  background: var(--cor-primaria);
   border-radius: 5px;
 }
 
