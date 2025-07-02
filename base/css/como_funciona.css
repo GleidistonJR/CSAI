@@ -1,81 +1,50 @@
-/*
 #como_funciona {
-  overflow-y: hidden;
-}*/
-#como_funciona h2{
+    background-color: var(--bg-azul);
+}
+
+#como_funciona h2 {
     color: var(--texto-escuro);
 }
-#como_funciona h2::after{
+
+#como_funciona h2::after {
     background-color: var(--texto-escuro);
-      margin: 30px auto 0 auto;
-    width: 200px!important;
+    margin: 30px auto 0 auto;
 }
 
-/*
-            PASSO1
-*/
-#como_funciona #como_funciona_icons p.passos{
+#como_funciona #como_funciona_icons p.passos {
     font-weight: 600;
-}
-
-#como_funciona #como_funciona_icons .bi{
-    font-size: 4em;
-}
-
-#como_funciona #como_funciona_icons .back-fff{
-    margin: 5px 0px;
-    border-radius: 10px;
-    min-height: 300px;
-}
-/*
-            PASSO1
-*/
-#como_funciona .passo1 p.passos,
-#como_funciona .passo1 .bi{
     color: var(--cor-primaria);
 }
-#como_funciona .passo1 .linha::after{
-    background-color: var(--cor-primaria);
-}
-#como_funciona .passo1 .back-fff{
-    border: 3px solid var(--cor-primaria);
-}
-/*
-            PASSO2
-*/
-#como_funciona .passo2 p.passos,
-#como_funciona .passo2 .bi{
-    color: var(--cor-secundaria);
-}
-#como_funciona .passo2 .linha::after{
-    background-color: var(--cor-secundaria);
-}
-#como_funciona .passo2 .back-fff{
-    border: 3px solid var(--cor-secundaria);
-}
-/*
-            PASSO3
-*/
-#como_funciona .passo3 p.passos,
-#como_funciona .passo3 .bi{
-    color: var(--cor-terciaria);
-}
-#como_funciona .passo3 .linha::after{
-    background-color: var(--cor-terciaria);
-}
-#como_funciona .passo3 .back-fff{
-    border: 3px solid var(--cor-terciaria);
+
+#como_funciona #como_funciona_icons .bi {
+    font-size: 5em;
+    color: var(--cor-primaria);
 }
 
-
-
-
-
-#como_funciona h4{
+#como_funciona h4 {
     font-size: 1.2em;
     color: var(--texto-escuro);
 }
 
-#como_funciona .implantacao h3{
+#como_funciona .passos .linha::after {
+    background-color: var(--bg-escuro);
+}
+#como_funciona .passos p {
+    color: var(--paragrafo-escuro);
+}
+
+#como_funciona #como_funciona_icons .back-fff {
+    margin: 5px 0px;
+    border-radius: 10px;
+    min-height: 320px;
+    background-color: #fff;
+    box-shadow: 1px 0 5px #ddd;
+}
+
+
+#como_funciona .implantacao h3 {
     color: var(--texto-escuro);
+}
+#como_funciona .implantacao p {
+    color: var(--paragrafo-escuro);
 }

@@ -1,16 +1,20 @@
-#problema_solucao{
+#problema_solucao {
   overflow-x: hidden;
 }
-#problema_solucao h2{
+
+#problema_solucao h2 {
   color: var(--texto-escuro);
 }
+#problema_solucao p {
+  color: var(--paragrafo-escuro);
+}
 
-#problema_solucao .infografico p{
-  color: var(--texto-escuro);
+#problema_solucao .infografico p {
+  color: var(--paragrafo-escuro);
   font-size: 1.2em;
 }
 
-#problema_solucao .infografico i{
+#problema_solucao .infografico i {
   font-size: 5em;
   color: var(--cor-primaria);
 }
@@ -22,44 +26,44 @@
   border-radius: 5px;
   margin: 10px auto;
 }
+
 #problema_solucao .preenchido {
   height: 25px;
   background: var(--cor-primaria);
   border-radius: 5px;
 }
 
-#problema_solucao .grafico-crecimento h3{ 
+#problema_solucao .grafico-crecimento h4 {
   color: var(--texto-escuro);
 }
 
-#problema_solucao .grafico-crecimento .center-ul{
+#problema_solucao .grafico-crecimento .center-ul {
   display: flex;
   justify-content: center;
 }
-#problema_solucao .grafico-crecimento ul{
+
+#problema_solucao .grafico-crecimento ul {
   padding: 0;
 }
-#problema_solucao .grafico-crecimento ul li{
+
+#problema_solucao .grafico-crecimento ul li {
   list-style: none;
-}
-#problema_solucao .grafico-crecimento ul li span{
-  font-size: 1.1em;
-}
-#problema_solucao .grafico-crecimento ul li span.text-bg-primary{
-  background-color: var(--cor-primaria)!important;
+  color: var(--paragrafo-escuro);
 }
 
-#problema_solucao .grafico-crecimento a{
+#problema_solucao .grafico-crecimento ul li span {
+  font-size: 1.1em;
+  background-color: var(--cor-primaria) !important;
+}
+
+
+#problema_solucao .grafico-crecimento a {
   background-color: var(--cor-primaria);
   color: var(--texto-claro);
   font-weight: 500;
   border-radius: 25px;
-  padding: 7px 50px;
+  padding: 7px 15%;
 }
 
-#problema_solucao .grafico-crecimento ul{
-  padding: 0;
-}
 
-@media (min-width: 1024px) {
-}
+@media (min-width: 1024px) {}

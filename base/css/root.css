@@ -6,11 +6,14 @@
 
   --texto-claro: #ffffff;
   --texto-escuro: #444;
+  --paragrafo-escuro: #666;
 
   --bg-claro: #eee; 
   --bg-claro2: #dedede; 
-  --bg-escuro: #ccc; 
+  --bg-escuro: #ccc;
 
+  --bg-azul: #F2F9FE; 
+  
   /*--verde-success: #08e608;*/
   --verde-success: #13ca75;
   --vermelho: red;
