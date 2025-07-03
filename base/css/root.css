@@ -23,6 +23,10 @@
   /*--vermelho: #bd1a1a;*/
 }
 
+.cor-texto{
+  color: var(--texto-escuro);
+}
+
 .linha::after{
   content: "";
   margin: 17px auto 0 auto;
