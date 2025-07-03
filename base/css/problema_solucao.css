@@ -43,7 +43,7 @@
 }
 
 #problema_solucao .grafico-crecimento ul {
-  padding: 0;
+  padding-left: 10px;
 }
 
 #problema_solucao .grafico-crecimento ul li {
@@ -58,11 +58,14 @@
 
 
 #problema_solucao .grafico-crecimento a {
-  background-color: var(--cor-primaria);
+  background-color: var(--bg-btn);
   color: var(--texto-claro);
   font-weight: 500;
   border-radius: 25px;
   padding: 7px 15%;
+}
+#problema_solucao .grafico-crecimento a:hover{
+  background-color: var(--bg-btn-hover);
 }
 
 

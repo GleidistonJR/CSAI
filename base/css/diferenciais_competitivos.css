@@ -1,7 +1,56 @@
 #diferenciais_competitivos h2{
-    color: var(--cor-primaria);
+    color: var(--texto-escuro);
 }
 
-#diferenciais_competitivos h2::after{
-    width: 150px!important;
+#diferenciais_competitivos .diferencas h4{
+    border-radius: 10px 10px 0 0;
+    background-color: var(--cor-secundaria);
+    padding: 15px 0;
+    font-size: 1.8em;
+    color: var(--texto-claro);
+}
+#diferenciais_competitivos .diferencas .back-fff {
+    margin: 5px 0px;
+    border-radius: 10px;
+    min-height: 320px;
+    background-color: var(--bg-laranja);
+    box-shadow: 1px 0 5px #ddd;
+}
+
+#diferenciais_competitivos .diferencas ul {
+    list-style: none;
+    padding: 0;
+}
+#diferenciais_competitivos .diferencas ul li{
+    padding: 0px 10px 10px 10px ;
+}
+#diferenciais_competitivos .diferencas ul li::after {
+    width: 80%;
+    background-color: var(--bg-escuro) ;
+    height: 2px;
+}
+#diferenciais_competitivos .diferencas ul li h5{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#diferenciais_competitivos .diferencas .cs-ai ul li i{
+    font-size: 1.5em;
+    color: var(--verde-success);
+}
+#diferenciais_competitivos .diferencas .generico ul li i{
+    font-size: 1.5em;
+    color: var(--vermelho);
+}
+
+
+
+#diferenciais_competitivos .diferencas a {
+  background-color: var(--bg-btn);
+  color: var(--texto-claro);
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 7px 15%;
+}
+#diferenciais_competitivos .diferencas a:hover{
+  background-color: var(--bg-btn-hover);
 }

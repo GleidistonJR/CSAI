@@ -1,38 +1,27 @@
-header{
-    background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria))!important;
+header {
+    background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria)) !important;
 }
-header nav.navbar{
+header .navbar-brand img{
+    width: auto;
+    height: 80px;
+}
+
+header nav.navbar {
     background-color: #00000000 !important;
 }
-header a.nav-link{
-    color: var(--texto-claro)!important;
+
+header a.nav-link {
+    color: var(--texto-claro) !important;
     font-size: 1.1em;
     font-weight: 500;
 }
 
-header .dropdown-menu a{
-    color: var(--texto-escuro)!important;
-    
-}
-header .dropdown-menu li a:hover{
-    background-color:var(--cor-primaria)!important;
-    color: var(--texto-claro)!important;
-    
-}
-header .img-fluid{
-   width: 120px;
-   height: auto; 
-   display: block;
-     margin: 0 auto; /* centraliza */
-}
-
-@media (min-width: 1024px) {
-
-    /* CSS: mantém o menu visível ao passar o mouse */
-    .dropdown:hover > .dropdown-menu {
+header .img-fluid {
+    width: 120px;
+    height: auto;
     display: block;
-    }
-
-    /* Impede “piscar” ao sair do toggle */
-    .dropdown-toggle::after { pointer-events: none; }
+    margin: 0 auto;
+    /* centraliza */
 }
+
+@media (min-width: 1024px) {}

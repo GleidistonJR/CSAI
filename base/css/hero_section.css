@@ -23,13 +23,12 @@ color: var(--texto-claro);
   padding: 7px 0;
   width: 280px;
   border-radius: 50px;
-  color: var(--cor-primaria);
-  background-color: var(--texto-claro);
-  border: 2px solid #fff;
+  color: var(--texto-claro);
+  background-color: var(--bg-btn);
+  border: 2px solid var(--bg-btn);
 }
 #hero_section a.btn1:hover{
-  color: var(--cor-primaria);
-  background-color: var(--bg-claro);
+  background-color: var(--bg-btn-hover);
 }
 
 @media (min-width: 1024px) {
