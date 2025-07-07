@@ -1,6 +1,9 @@
 #problema_solucao {
   overflow-x: hidden;
 }
+#problema_solucao #solucao-cs{
+  background-color: var(--bg-azul);
+}
 
 #problema_solucao h2 {
   color: var(--texto-escuro);
