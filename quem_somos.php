@@ -3,7 +3,6 @@
     include 'base/partials/header.html';
 ?>
 
-<body>
     <main>
         <div class="container">
             <section style="text-align:center; margin: 3rem 0;">
@@ -84,7 +83,6 @@
             </section>
         </div>
     </main>
-</body>
 <?php 
     include 'base/partials/footer.html';
 ?>

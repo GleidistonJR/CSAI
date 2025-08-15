@@ -3,7 +3,6 @@
     include 'base/partials/header.html';
 ?>
 
-<body>
     <main>
         <div class="container" style="max-width:800px; margin:2rem auto; padding:2rem; background:#fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.05);">
             <h1 style="font-size:2.5rem; font-weight:bold; margin-bottom:1rem; text-align:center;">Termos de Serviço</h1>
@@ -35,7 +34,6 @@
             </p>
         </div>
     </main>
-</body>
 <?php 
     include 'base/partials/footer.html';
 ?>

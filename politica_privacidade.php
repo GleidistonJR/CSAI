@@ -3,7 +3,6 @@
     include 'base/partials/header.html';
 ?>
 
-<body>
     <main>
         <div class="container my-5 caixa-sombreada">
             <h1 class="titulo cor-secundaria">Política de privacidade</h1>
@@ -322,7 +321,6 @@
             </div>
         </div>
     </main>
-</body>
 <?php 
     include 'base/partials/footer.html';
 ?>
