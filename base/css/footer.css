@@ -8,32 +8,40 @@ footer a {
     text-decoration: none;
     color: var(--texto-claro);
 }
+
+footer div.row div.col-lg-3{
+    padding: 15px !important; 
+}
+
 footer ul {
     padding: 0;
-    gap: 10px;
+    gap: 15px;
     display: flex;
     justify-content: center;
 }
 footer ul li {
     list-style: none;
 }
+footer ul li i {
+    font-size: 1.5em;
+}
 footer .copy {
     padding: 7px 0;
 }
 
 @media (min-width: 1024px) {
+    footer div.row div.col-lg-3{
+    padding: 0;
+}
     footer ul {
-        padding: 0;
-        gap: 10px;
-        display: flex;
         justify-content: start;
     }
 }
 
 
-/*
-        LGPD
-*/
+/*-----------------------------------------------------
+                       LGPD
+-------------------------------------------------------*/
 
 #lgpd-banner {
     position: fixed;
